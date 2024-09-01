@@ -1,5 +1,4 @@
 local symbols = {
-	{ word = "\\dfrac", label = "\\dfrac", insertText = "\\dfrac{ <++> }{ <++> }", filterText = "\\dfrac" },
 	{ word = "\\quad", label = "\\quad空格", insertText = "\\quad", filterText = "\\quad" },
 	{ word = "\\gets", label = "\\gets左箭头 ←", insertText = "\\gets", filterText = "\\gets" },
 	{ word = "\\to", label = "\\to右箭头 →", insertText = "\\to", filterText = "\\to" },
@@ -15,40 +14,11 @@ local symbols = {
 		insertText = "\\longrightarrow",
 		filterText = "\\longrightarrow",
 	},
-	{
-		word = "\\overline",
-		label = "\\overline上横线",
-		insertText = "\\overline{ <++> }",
-		filterText = "\\overline",
-	},
-	{
-		word = "\\overbrace",
-		label = "\\overbrace上大括号",
-		insertText = "\\overbrace{ <++> }",
-		filterText = "\\overbrace",
-	},
-	{
-		word = "\\overrightarrow",
-		label = "\\overrightarrow上右箭头",
-		insertText = "\\overrightarrow{ <++> }",
-		filterText = "\\overrightarrow",
-	},
 	{ word = "\\times", label = "\\times乘", insertText = "\\times", filterText = "\\times" },
 	{ word = "\\div", label = "\\div除", insertText = "\\div", filterText = "\\div" },
 	{ word = "\\pm", label = "\\pm加减", insertText = "\\pm", filterText = "\\pm" },
 	{ word = "\\cdot", label = "\\cdot点", insertText = "\\cdot", filterText = "\\cdot" },
-	{
-		word = "\\overset",
-		label = "\\overset上放置",
-		insertText = "\\overset{ <++> }{ <++> }",
-		filterText = "\\overset",
-	},
-	{
-		word = "\\underset",
-		label = "\\underset下放置",
-		insertText = "\\underset{ <++> }{ <++> }",
-		filterText = "\\underset",
-	},
+
 	{ word = "\\sqrt", label = "\\sqrt根号", insertText = "\\sqrt[]{ <++> }", filterText = "\\sqrt" },
 	{ word = "\\cdots", label = "\\cdots省略号", insertText = "\\cdots", filterText = "\\cdots" },
 	{ word = "\\because", label = "\\because因为", insertText = "\\because", filterText = "\\because" },
@@ -63,14 +33,7 @@ local symbols = {
 	{ word = "\\ne", label = "\\ne不等于", insertText = "\\ne", filterText = "\\ne" },
 	{ word = "\\approx", label = "\\approx约等于", insertText = "\\approx", filterText = "\\~=" },
 	{ word = "\\approx", label = "\\approx约等于", insertText = "\\approx", filterText = "\\approx" },
-	{ word = "\\int", label = "\\int积分", insertText = "\\int_{ <++> }^{ <++> }", filterText = "\\int" },
-	{ word = "\\iint", label = "\\iint二重积分", insertText = "\\iint_{ <++> }^{ <++> }", filterText = "\\iint" },
-	{ word = "\\oint", label = "\\oint全积分", insertText = "\\oint_{ <++> }^{ <++> }", filterText = "\\oint" },
-	{ word = "\\log", label = "\\log", insertText = "\\log_{ <++> }", filterText = "\\log" },
-	{ word = "\\ln", label = "\\ln", insertText = "\\ln_{ <++> }", filterText = "\\ln" },
-	{ word = "\\sum", label = "\\sum求和", insertText = "\\sum_{ <++> }^{ <++> }", filterText = "\\sum" },
-	{ word = "\\prod", label = "\\prod求积", insertText = "\\prod_{ <++> }^{ <++> }", filterText = "\\prod" },
-	{ word = "\\lim", label = "\\lim", insertText = "\\lim_{ <++> \\to \\infty}", filterText = "\\lim" },
+
 	{
 		word = "\\matrix",
 		label = "\\matrix矩阵",
